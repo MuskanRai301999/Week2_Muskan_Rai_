@@ -1,0 +1,1 @@
+{"version":3,"file":"pgConfig.js","sourceRoot":"","sources":["../src/pgConfig.ts"],"names":[],"mappings":";AAAA,6BAA6B;;AAE7B,0BAA0B;AAC1B,wBAAwB;AACxB,yBAAyB;AACzB,4BAA4B;AAC5B,yBAAyB;AACzB,kBAAkB;AAClB,MAAM;AAEN,uBAAuB;AACvB,yCAAsC;AAEtC,MAAM,SAAS,GAAG,IAAI,qBAAS,CAAC,oDAAoD,EAAE;IACpF,OAAO,EAAE,KAAK,CAAC,iCAAiC;CACjD,CAAC,CAAC;AAEH,kBAAe,SAAS,CAAC"}

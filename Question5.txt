@@ -1,0 +1,16 @@
+5. In the notes , it was prompted to firstly create table before running Create query , Is it possble to create a function that will check the existence of
+table before adding any entity in the table. If the table does not exist , it should create one. Implement once to check
+
+Yes, it's possible to create a function in PostgreSQL using Sequalize.
+Sequelize is an ORM (Object-Relational Mapping) for Node.js, which provides an easier way to interact with databases,
+including creating tables, defining models, and performing CRUD operations.
+
+Steps to use Sequelize:-
+
+1.Installing Sequelize using 'npm install sequalize'.
+2.Create a sequelize file sequelize.ts and import it to initialize Sequelize and define your database connection.
+3.Create a file named Model.ts to define a Sequelize model for the table.
+4.We can use authenticate() functio to check whether the database is connected or not.
+5.You can use Sequelize's sync() method to automatically create tables if they do not exist. 
+6.Insert entities into the table:After ensuring that the table exists, we can proceed to insert entities into the table using
+ Sequelize's model methods like create().
